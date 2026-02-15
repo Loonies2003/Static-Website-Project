@@ -1,0 +1,105 @@
+html {
+      overflow: hidden;
+      height: 100%;
+     }
+
+body {
+       background-image: url("../Images/Background.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+       height: 100%;
+       overflow: auto;
+       font-family: sans-serif;
+     }
+
+p {
+    font-size: 18px;
+  }
+
+h1#title {
+           font-size: 60px;
+           width: 100px
+         }
+
+img#logo {
+           position: absolute;
+           width: 24%;
+           height: 30%;
+         }
+
+nav {
+        color:white;
+        width: 50%;
+        margin: 1em auto 0 auto;
+        padding-bottom: 0.1em;
+        border: 0.1em solid blue;
+        box-shadow: 0 0 0.8em 0.8em blue;
+        background-color: black;
+        border-radius: 1em 1em 0 0;
+        font-size: 1.2em;
+        text-align: center;
+        line-height: 1.5em;
+    }
+
+div#mystory, div#form, div#thanks,div#program,div#home,div#gettingstarted,div#nutrition,div#tips,div#safety {
+    
+                                                                                                                color:white;
+                                                                                                                width: 50%;
+                                                                                                                margin: 0 auto;
+                                                                                                                border: 0.1em solid blue;
+                                                                                                               box-shadow: 0 0 1em 0.8em blue;
+                                                                                                                background-color: black;
+    
+                                                                                                            }
+  
+a {
+    text-decoration: none;
+  }
+
+a:hover {
+          text-decoration: underline;
+        }
+
+nav a {
+        color: white;
+        padding: 0 0.4em;
+        text-decoration: none;
+      }
+
+.current {
+            text-decoration: underline;
+            color:blue;
+         }
+
+nav a:hover {
+                color:blue;
+                border: 0.1em solid blue;
+                border-radius: 1em;
+            }
+
+div#thanks p,div#mystory p,div#form p,form,div#home p,div#gettingstarted p,div#nutrition p,div#safety p,div#tips p  {
+                                                                                                                        padding-left: 1em;
+                                                                                                                        padding-right: 1em;
+    
+                                                                                                                    }
+
+
+
+div#program {
+                text-align: center;
+            }
+
+footer {
+        color: white;
+        width: 50%;
+        margin: 0 auto;
+        border: 0.1em solid blue;
+        box-shadow: 0 0 1em 0.8em blue;
+        background-color: black;
+        border-radius: 0 0 1em 1em;
+       }
+
+footer p {
+            text-align-last: left; 
+            padding-left: 1em;
+         }
