@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!-- Name: Talhah -->
+<!-- Surname: Loonat -->
+<!-- Initials: TL
+<!-- Student Number: 2026367363 -->
+<!-- Filename: myindex.html -->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Lifting Lab - Personal Training</title>
+        <link rel="sylesheet" href="Styles/normalize.css"/>
+        <link rel="stylesheet" href="Styles/styles.css" />
+        <style>
+            @media print {
+                            body{
+                                    background-image: none;
+                                    background-color: black;
+                                    font-family: serif;
+                                    font-size: 9pt;
+                                }
+
+                             a {
+                                 color: white;
+                               }
+                          }
+            
+            input[type="email"],input[type="text"],input[type="submit"] {
+                                                                            border: 2px solid blue;
+                                                                            border-radius: 10px;
+                                                                            background-color: blue;
+                                                                            color: aliceblue;
+                                                                        }
+        
+            input[type="submit"] {
+                                    margin-bottom: 2em;    
+                                    padding: 6px;
+                                 } 
+            
+            input[type="submit"]:hover {
+                                         background-color:darkblue;
+                                         box-shadow:  0 0 1em 0.8em blue;
+                                       }
+            
+            input[type="radio"]:hover {
+                                        border: 1px solid blue;
+                                        border-radius: 10px 10px 10px 10px;
+                                        box-shadow:  0 0 1em 0.8em blue;
+                                      }
+            
+            lable {
+                   color: white;
+                  }
+            
+            div#form {
+                      line-height: 2em;
+                     }
+            
+            form {
+                  text-align: center;
+                 }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+             <a href="index.html"><img id="logo"
+                                      src="Images\result.png"
+                                      alt="Logo"
+                                      width=250px
+                                      height=250px>
+            </a>
+        </header>
+    
+    <main>
+        <nav>
+                <a href="index.html">Home</a>
+                <a href="GettingStarted.html">Getting Started</a>
+                <a href="Nutrition.html">Nutrition</a>
+                <a href="Tips.html">Tips</a>
+                <a href="HealthAndSafety.html">Health and Safety</a>
+                <a href="My Story.html">My Story</a>
+                <a href="Programs.html">Programs</a>
+                <a href="PersonalTraining.html" class="current">Personal Training</a>
+        </nav>    
+        
+        <div id="form">
+            <p>I offer personal training suited to your needs. If you would like a free one week trail please enter you contact details below:</p>
+        
+            <form method="get" action="Thanks.html">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Talhah"  required >
+                </p>
+                 <p>
+                    <label for="surname">Surname:</label>
+                    <input type="text" id="surname" placeholder="Loonat" required >
+                </p>
+                 <p>
+                    <label for="cellnumber">Cellphone Number:</label>
+                    <input type="text" id="cellnumber" placeholder="071 867 7784" required >
+                </p>
+                 <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="talhahloonat6@gmail.com" required >
+                </p>
+                 <p>
+                    <label for="age">Age:</label>
+                    <input type="text" id="age" placeholder="20" required >
+                </p>
+                <p>
+                    Gender:
+                    <br>
+                    <input type="radio" id="radiomale" name="gender" value="male" required>
+                    <label>Male</label>
+                    <br>
+                    <input type="radio" id="radiofemale" name="gender" value="female" required>
+                    <label>Female</label>
+                </p>
+                <p>
+                    What is your goal?
+                    <br>
+                    <input type="radio" id="loseweight" name="goal" value="loseweight" required>
+                    <label>Lose weight</label>
+                    <br>
+                    <input type="radio" id="gainmuscle" name="goal" value="gainmuscle" required>
+                    <label>Gain muscle</label>
+                    <br>
+                    <input type="radio" id="stayfit" name="goal" value="stayfit" required>
+                    <label>Stay fit</label>
+                </p>
+                 <input type="submit" id="submit">
+            </form>
+        </div>
+        
+    
+    </main>
+    <footer>
+             <p>Created by :<a href="https://za.linkedin.com/in/talhah-loonat-75aaa4319" target="_blank" style="color:blue;">Talhah Loonat (2026367363)</a></p>
+        <p>&copy; 2024 <a href="https://www.ufs.ac.za/" target="_blank" style="color:blue;">University of the Free State </a></p>
+        <p>Last update: 21 September 2024</p>
+        <p style="font-size: 10px; color: blue;">Sources:</p>
+        <p style="font-size: 10px;"> 1. Logo from &nbsp; <a href="https://www.design.com/s/logo-maker?code=25OFFSEM&utm_medium=cpc&utm_source=google&utm_campaign=africa_top_tier&utm_adgroup=logo_maker_freee&utm_content=691447004802&utm_keyword=free+logo+maker&utm_network=g&gad_source=1&gclid=Cj0KCQjwxsm3BhDrARIsAMtVz6McRzV8PXeZex5TXOD8SdiJ8iSrboNN6FT99AHxrRONjo-SRieCI3oaAh0LEALw_wcB" target="_blank">Design.com</a></p>
+        <p style="font-size: 10px;"> 2. Background image from &nbsp; <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></p> 
+    </footer>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
